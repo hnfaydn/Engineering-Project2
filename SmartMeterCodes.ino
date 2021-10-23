@@ -17,7 +17,7 @@ float Producedpower;
 
 PZEM004Tv30 pzem(15, 16);
 
-LiquidCrystal lcd( 8,  9,  4,  5,  6,  7);
+LiquidCrystal lcd( 8,  9,  4,  5,  6,  7); //Arduino LCD sheild definitions
 #define PI 3.1415926535897932384626433832795;
 void setup() {
  lcd.begin(16, 2);
